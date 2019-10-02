@@ -1,0 +1,39 @@
+{
+  "name": "next-fifteen",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "node server/index.js",
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "express": "^4.17.1",
+    "isomorphic-unfetch": "^3.0.0",
+    "lodash": "^4.17.15",
+    "next": "^9.0.7",
+    "next-redux-saga": "^4.0.2",
+    "next-redux-wrapper": "^4.0.0",
+    "react": "^16.10.1",
+    "react-dom": "^16.10.1",
+    "react-redux": "^7.1.1",
+    "redux": "^4.0.4",
+    "redux-saga": "^1.1.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.2",
+    "@babel/node": "^7.6.2",
+    "@babel/plugin-transform-runtime": "^7.6.2",
+    "@babel/preset-env": "^7.6.2",
+    "@babel/register": "^7.6.2",
+    "eslint": "^6.5.1",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-plugin-react": "^7.15.0"
+  }
+}
