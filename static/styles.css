@@ -1,0 +1,122 @@
+html {
+    height: 100%;
+}
+.app-body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.app-body > div {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.header {
+    padding: 8px;
+    box-shadow: 0 5px 5px -5px #333;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header .logo-wrapper {
+    cursor: pointer;
+    user-select: none;
+}
+
+.header .links-wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.header__link {
+    margin-right: 8px;
+    cursor: pointer;
+}
+.header__link.active {
+    color: #2f33ff;
+}
+
+.header__link:last-child {
+    margin-right: 0;
+}
+
+.main {
+    height: 100%;
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    max-height: calc(100% - 84px);
+    overflow: auto;
+}
+
+.user-element {
+    display: flex;
+    flex-direction: row;
+    padding: 4px;
+    margin-bottom: 4px;
+    box-shadow: 0 2px 2px -2px #333;
+}
+.user-element__id {
+    margin-right: 8px;
+}
+.user-element__name {
+
+}
+.user-element__link {
+    margin-left: auto;
+    cursor: pointer;
+}
+
+.game-wrapper {
+    display: flex;
+    flex-direction: row;
+    width: 168px;
+    border: 1px solid #ccc;
+    flex-wrap: wrap;
+    margin: auto;
+}
+.game-item {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.start-game-btn-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.start-game-btn {
+    width: 150px;
+    padding: 10px;
+    background: #2f33ff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    margin: auto;
+}
+.restore-game-btn {
+    color: #2f33ff;
+    position: absolute;
+    right: 8px;
+    background: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.footer {
+    padding: 8px;
+    margin-top: auto;
+    box-shadow: 0 -5px 5px -5px #333;
+}
